@@ -3,8 +3,8 @@ This is a web application that lets users play a multiple-choice trivia quiz gam
 
 ## Functionalities
 ------------
--Read questions and their corresponding options from a file
--When player starts game:
+- Read questions and their corresponding options from a file
+- When player starts game:
 1. Choose questions at random
 2. Display the answers and distractors in random order
 3. Track the number of correct answers.
