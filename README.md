@@ -1,5 +1,4 @@
 # Trivia Quiz
-=====================================
 This is a web application that lets users play a multiple-choice trivia quiz game. A trivia game is one where the competitors are asked questions about interesting but unimportant facts in many subjects.
 
 ## Functionalities
