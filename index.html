@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trivia Quiz</title>
+    <link rel= "stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- home page -->
+    <div class="home">
+        <div class="row">
+            <div class="col-1">
+                <h1 class="home-title">TRIVIA QUIZ</h1>
+                <h3 class="home-description1">Let's Play The Game.</h3>
+                <p class="home-description2"> Good luck!</p>
+                <button type="button" class="play-btn" onclick="start()">Play Now</button>         
+            </div>
+            <div class="col-2">
+                <img src="image/sync.png" alt="" data-speed="-2" class="move">
+                <img src="image/choose.png" alt="" data-speed="2" class="move"> 
+            </div>
+            <div class="color-box"></div>
+        </div>
+    </div>
+
+    <!-- quiz page -->
+    <div class="quiz hide">
+        <div class="quiz-title">
+            <h1>TRIVIA QUIZ</h1>
+        </div>
+        <div class="custom">
+            <div class="question-no">
+                
+            </div>
+            <div class="question box">
+                
+            </div>
+            <div class="ques-options">
+                
+            </div>
+            <div class="button-next">
+                <button type="button" class="btn" onclick="next()"><span>Next</span></button>
+            </div>
+            <div class="answer-sign">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- result page -->
+    <div class="result hide">
+        <div class="quiz-title">
+            <h1>TRIVIA QUIZ</h1>
+        </div>
+        <div class="custom">
+            <div class="feedback">
+                <img src="image/cool.gif" class="emoji1 hide">
+                <img src="image/okay.gif" class="emoji2 hide">
+                <img src="image/fail.gif" class="emoji3 hide">
+            </div>
+            <div class="comment">
+
+            </div>
+            <h1>Total Score</h1>
+            <div class="score">
+                
+            </div>
+            <button type="button" class="btn" onclick="tryAgain()">Try Again</button>
+            <button type="button" class="btn" onclick="backHome()">Quit</button>
+        </div>
+    </div>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+<!-- javascript files -->
+<script src="javascript/questions.js"></script>
+<script src="javascript/app.js"></script>
+
+</body>
+</html>
