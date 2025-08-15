@@ -52,6 +52,11 @@ Follow these steps to run the project locally:
 
 ---
 
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 ## 🙌 Acknowledgements
 
 Inspired by classic trivia games and built as a learning project to improve JavaScript skills.
