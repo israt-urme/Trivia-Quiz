@@ -38,7 +38,7 @@ Follow these steps to run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Trivia-Quiz.git
+   git clone https://github.com/israt-urme/Trivia-Quiz.git
 2. Open the project folder.
 3. Launch index.html in your web browser.
 
